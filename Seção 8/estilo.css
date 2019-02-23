@@ -8,4 +8,57 @@
     background: #5bf946;
     border: 1px solid #36ae26;
 } */
-/* =============Formulário============= */
+/* =============Media Queries============= */
+/* p{
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (max-width: 767px){
+    body{
+        background: red;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background: blue;
+    }
+
+    p{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background: orange;
+    }
+
+    p{
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background: black;
+    }
+
+    p{
+        font-size: 100px;
+    }
+} */
+
+/* =============Overflow============= */
+/* overflow: comando para organizar exibições de conteúdo que escapa do espaço determinado */
+/* .item{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;    
+    overflow: auto;
+} */
