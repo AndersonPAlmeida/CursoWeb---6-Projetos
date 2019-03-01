@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>If & Else</title>
+    
+        <script type="text/javascript">
+            //&& -> E
+            /* if (2 == 2 && 3 ==4) {
+                document.write('verdadeiro');
+            } else{
+                document.write('falso');
+            } */
+            // || -> ou 
+            /* if (2 == 2 || 3 ==4) {
+                document.write('verdadeiro');
+            } else{
+                document.write('falso');
+            } */
+            // ! -> negação (inverte o resultado da condição)
+            /* if (!(2 == 2)) {
+                document.write('verdadeiro');
+            } else{
+                document.write('falso');
+            } */
+            var nota = prompt("Digite a nota do aluno:");
+            var faltas = prompt("Digite a qtd de faltas do aluno:");
+            var media = 7;
+            var faltas_limite = 15;
+
+            if (nota >= media && faltas <= faltas_limite) {
+                document.write("aprovado");
+            } else {
+                document.write("reprovado");
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
