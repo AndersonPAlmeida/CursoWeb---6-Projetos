@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">    
+    <title>Eventos Formulário</title>
+    
+    <script src="jquery-2.2.4.js"></script>
+
+    <script type="text/javascript">
+        //focus
+        /* $(document).ready(
+            function () {
+                $('.campo1').focus(
+                    function () {
+                        console.log('Elemento Foi Focado');
+                    }
+                );
+            }
+        ); */
+        //blur
+        /* $(document).ready(
+            function () {
+                $('.campo1').blur(
+                    function () {
+                        alert('Elemento Perdeu o Focado');
+                    }
+                );
+            }
+        ); */
+        //change 
+        $(document).ready(
+            function () {
+                $('.campo1').change(
+                    function () {
+                        alert('Elemento Foi Modificado');
+                    }
+                );
+            }
+        );
+    </script>
+</head>
+<body>
+    <input type="text" class="campo1">
+    <select class="campo1">
+        <option value="1">Primeira Opção</option>
+        <option value="2">Segunda Opção</option>     
+    </select>
+</body>
+</html>

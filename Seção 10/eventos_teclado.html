@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">    
+    <title>Eventos Mouse</title>
+    
+    <script src="jquery-2.2.4.js"></script>
+
+    <script type="text/javascript">
+        //Comandos javascript só funcionarão após o DOM for carregado com esse comentário
+        // keydown
+        /* $(document).ready(
+            function () {
+                $('#campo1').keydown(
+                    function () {
+                        alert('Botão Pressionado');
+                    }
+                );
+            }            
+        ); */
+        //keypress
+       /*  $(document).ready(
+            function () {
+                $('#campo1').keypress(
+                    function () {
+                        alert('Botão Pressionado Sem Algumas Teclas');
+                    }
+                );
+            }            
+        ); */
+        //keyup
+        $(document).ready(
+            function () {
+                $('#campo1').keyup(
+                    function () {
+                        alert('Botão Liberado');
+                    }
+                );
+            }            
+        );
+    </script>
+</head>
+<body>    
+    <input id="campo1" type="text">
+</body>
+</html>

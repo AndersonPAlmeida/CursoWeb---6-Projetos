@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">    
+    <title>Eventos Mouse</title>
+    
+    <script src="jquery-2.2.4.js"></script>
+
+    <script type="text/javascript">
+        //Comandos javascript só funcionarão após o DOM for carregado com esse comentário
+        // click
+        /* $(document).ready(
+            function () {
+                $('#div1').click(
+                    function () {
+                        alert('Elemento Clicado');
+                    }
+                );
+            }            
+        ); */
+        // dblclick
+        /* $(document).ready(
+            function () {
+                $('#div1').dblclick(
+                    function () {
+                        alert('Elemento Clicado 2x');
+                    }
+                );
+            }            
+        ); */
+        // mousedown -> momento q preciona o botão do clik no elemento
+        /* $(document).ready(
+            function () {
+                $('#div1').mousedown(
+                    function () {
+                        alert('Elemento Precionado');
+                    }
+                );
+            }            
+        ); */
+        // mouseover
+        /* $(document).ready(
+            function () {
+                $('#div1').mouseover(
+                    function () {
+                        alert('Elemento Foi Sobreposto');
+                    }
+                );
+            }            
+        ); */
+        // mouseout
+        $(document).ready(
+            function () {
+                $('#campo1').mouseout(
+                    function () {
+                        alert('Elemento Saiu da Sobreposição');
+                    }
+                );
+            }            
+        );    
+    </script>
+</head>
+<body>
+    <div id="div1" style="height:150px; width:150px; background: #CCC"></div>
+</body>
+</html>
